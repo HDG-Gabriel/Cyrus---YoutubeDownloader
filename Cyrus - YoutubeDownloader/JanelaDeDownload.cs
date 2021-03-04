@@ -11,8 +11,8 @@ namespace Cyrus___YoutubeDownloader
         public YoutubeInfo VideoInfo { get; set; }
         public string URL { get; set; }
         // Pasta onde ficam armazenadas as thumbs TEMPORARIAMENTE
-        private readonly string pasta = @"C:\Users\Gabri\Downloads\Thumbs\thumbnail";
-        private readonly string pastaDestino = @"C:\Users\Gabri\Downloads\";
+        private readonly string pastaTemporaria = Path.GetTempPath() + @"\Thumbs\thumbnail";
+        private readonly string pastaDestino = @"C:\Users\" + Environment.UserName + @"\Downloads\";
         public JanelaDeDownload()
         {
             InitializeComponent();
@@ -34,8 +34,8 @@ namespace Cyrus___YoutubeDownloader
 
             ConfigurarPosicaoDuracao();
 
-            // Local de donwload
-            var pathDownload = pasta + YoutubeInfo.NumeroThumb.ToString() + ".jpg";
+            // Local de donwload da thumb
+            var pathDownload = pastaTemporaria + YoutubeInfo.NumeroThumb.ToString() + ".jpg";
             imgVideo.Image = null;
 
             VideoInfo.DownloadThumb(pathDownload);

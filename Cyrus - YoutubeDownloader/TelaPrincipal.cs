@@ -23,7 +23,12 @@ namespace Cyrus___YoutubeDownloader
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            JanelaDeDownload.LimparPasta(@"C:\Users\Gabri\Downloads\Thumbs\");
+            var diretorio = Path.GetTempPath() + @"\Thumbs\";
+            if (!Directory.Exists(diretorio))
+            {
+                Directory.CreateDirectory(diretorio);
+            }
+            JanelaDeDownload.LimparPasta(diretorio);
             // Referência a atual janela como a principal
             barraDeEndereco1.TelaPrincipal = this;
 
