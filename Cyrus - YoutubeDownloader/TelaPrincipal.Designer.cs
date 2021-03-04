@@ -121,6 +121,7 @@ namespace Cyrus___YoutubeDownloader
             this.ClientSize = new System.Drawing.Size(715, 369);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panMensagens);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

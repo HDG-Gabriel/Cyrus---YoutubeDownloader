@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using VideoLibrary;
 
@@ -33,6 +27,10 @@ namespace Cyrus___YoutubeDownloader
             lblTitulo.Text = VideoInfo.Titulo;
             lblCanal.Text = VideoInfo.Autor;
             lblTempo.Text = VideoInfo.Duracao;
+
+            // Ajusta o painel visual de feedback do download
+            panDownloadFeedback.Location = new Point(230, 195);
+            panDownloadFeedback.Hide();
 
             ConfigurarPosicaoDuracao();
 
@@ -61,13 +59,29 @@ namespace Cyrus___YoutubeDownloader
             
         }
 
-        private void btnDonwload_Click(object sender, EventArgs e)
+        private async void btnDonwload_Click(object sender, EventArgs e)
         {
-            var video = YouTube.Default.GetVideo(URL);
+            btnDonwload.Hide();
+            panDownloadFeedback.Show();
+            gifLoading.Enabled = true;
+            tmrRelogio.Start();
+
+            var video = await YouTube.Default.GetVideoAsync(URL);
+            byte[] bytes = await video.GetBytesAsync();
+
             this.Cursor = Cursors.WaitCursor;
-            File.WriteAllBytes(pastaDestino + video.FullName, video.GetBytes());
+            File.WriteAllBytes(pastaDestino + video.FullName, bytes);
             this.Cursor = Cursors.Default;
-            // Mensagem informando que o download terminou
+            tmrRelogio.Stop();
+            gifLoading.Enabled = false;
+            panDownloadFeedback.Hide();
+            btnDonwload.Show();
+            MensagemDownloadConcluido();
+        }
+
+        // Mensagem informando que o download terminou
+        private void MensagemDownloadConcluido()
+        {
             var title = "Feito";
             var message = "Download concluído!";
             var icon = MessageBoxIcon.Information;
@@ -77,13 +91,26 @@ namespace Cyrus___YoutubeDownloader
 
         private void ConfigurarPosicaoDuracao()
         {
-            if (VideoInfo.Titulo.Length > 54)
+            if (VideoInfo.Titulo.Length > 55)
             {
                 lblTempo.Location = new Point(lblTempo.Location.X, 68);
             }
             else
             {
                 lblTempo.Location = new Point(lblTempo.Location.X, 48);
+            }
+        }
+
+        private void tmrRelogio_Tick(object sender, EventArgs e)
+        {
+            var texto = "Fazendo o download";
+            if (lblBytes.Text == texto + ". . . ")
+            {
+                lblBytes.Text = texto;
+            }
+            else
+            {
+                lblBytes.Text += ". ";
             }
         }
     }
