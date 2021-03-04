@@ -1,18 +1,22 @@
-C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus___YoutubeDownloader.Properties.Resources.resources
-C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus - YoutubeDownloader.csproj.GenerateResource.cache
-C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus - YoutubeDownloader.csproj.CoreCompileInputs.cache
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Cyrus.exe.config
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Cyrus.exe.manifest
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Cyrus.application
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Cyrus.exe
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Cyrus.pdb
 C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\libvideo.dll
 C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus - YoutubeDownloader.csproj.CopyComplete
-C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus___YoutubeDownloader.BarraDeEndereco.resources
-C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus___YoutubeDownloader.JanelaDeDownload.resources
 C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus - YoutubeDownloader.csprojAssemblyReference.cache
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus___YoutubeDownloader.BarraDeEndereco.resources
 C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus___YoutubeDownloader.TelaPrincipal.resources
-C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Cyrus.exe.config
-C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Cyrus.exe
-C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\bin\Debug\Cyrus.pdb
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus___YoutubeDownloader.JanelaDeDownload.resources
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus___YoutubeDownloader.Properties.Resources.resources
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus - YoutubeDownloader.csproj.GenerateResource.cache
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus - YoutubeDownloader.csproj.CoreCompileInputs.cache
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus.exe.manifest
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus.application
+C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus - YoutubeDownloader.csproj.CopyComplete
 C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus.exe
 C:\Users\Gabri\Documents\Development\Desktop\Cyrus - YoutubeDownloader\Cyrus - YoutubeDownloader\obj\Debug\Cyrus.pdb

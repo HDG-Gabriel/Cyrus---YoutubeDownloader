@@ -38,8 +38,7 @@ namespace Cyrus___YoutubeDownloader
             var pathDownload = pastaTemporaria + YoutubeInfo.NumeroThumb.ToString() + ".jpg";
             imgVideo.Image = null;
 
-            VideoInfo.DownloadThumb(pathDownload);
-            imgVideo.Image = Image.FromFile(pathDownload);
+            VideoInfo.DownloadThumb(pathDownload, imgVideo);
         }
 
         // Exclui todos os aquivos da pasta de thumbs
@@ -59,6 +58,7 @@ namespace Cyrus___YoutubeDownloader
             
         }
 
+        // Faz o download do video
         private async void btnDonwload_Click(object sender, EventArgs e)
         {
             btnDonwload.Hide();
