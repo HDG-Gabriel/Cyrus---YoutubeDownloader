@@ -60,7 +60,7 @@ namespace Cyrus___YoutubeDownloader
             try
             {
                 var cliente = new WebClient();
-                cliente.DownloadFile("https://i.ytimg.com/vi/" + URL.Substring(32) + "/default.jpg", destino);
+                cliente.DownloadFile("https://i.ytimg.com/vi/" + URL.Substring(32, 11) + "/default.jpg", destino);
                 imagem.Image = Image.FromFile(destino);
             } catch
             {
