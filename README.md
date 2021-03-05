@@ -3,5 +3,9 @@
 ## Sobre
  É um programa com uma interface simples e intuitiva de utlizar.
 ## Imagens
-![Simples](https://github.com/HDG-Gabriel/Cyrus---YoutubeDownloader/blob/main/Imagens/imagem1.png)
-![Fácil](https://github.com/HDG-Gabriel/Cyrus---YoutubeDownloader/blob/main/Imagens/imagem2.png)
+![alt text](https://github.com/HDG-Gabriel/Cyrus---YoutubeDownloader/blob/main/Imagens/imagem1.png)
+ Janela inicial
+![alt text](https://github.com/HDG-Gabriel/Cyrus---YoutubeDownloader/blob/main/Imagens/imagem2.png)
+ Informações sobre o vídeo
+![alt text](https://github.com/HDG-Gabriel/Cyrus---YoutubeDownloader/blob/main/Imagens/imagem3.png)
+ Realizando o download
